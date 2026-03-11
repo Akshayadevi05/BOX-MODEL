@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Css</title>
+    <!-- INTERNAL CSS -->
+    <style>
+        * {
+            margin: 0%;
+        }
+
+        nav {
+            color: white;
+            background-color: black;
+            width: 1350px;
+            height: auto;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 2px;
+        }
+
+        ul {
+            margin-left: 80%;
+        }
+
+        ul,
+        li {
+            display: inline-block;
+        }
+
+        li:hover {
+            cursor: pointer;
+            color: blue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="externaltask.css">
+</head>
+
+<body>
+    <!-- THIS DIV STYLE AS INTERNAL CSS -->
+    <div class="one">
+        <nav>
+            <h1>HEALTHY FIT</h1>
+            <ul>
+                <li>Home |</li>
+                <li>About Us |</li>
+                <li>Contact US</li>
+            </ul>
+        </nav>
+    </div>
+    <!-- THIS SECTION IS STYLE AS INLINE CSS -->
+    <section id="image" style="background-color: gray; width: 1380px; height:auto; padding: 5px;">
+        <div class="box">
+            <img src="fitness_image_1.png" alt="Loading">
+            <h2>Healthy Body, Healthy Mind. </h2>
+            
+        </div>
+    <!-- THIS SECTION IS STYLE AS EXTERNAL CSS -->
+    </section>
+    <div>
+        <section class="details">
+            <div class="two">
+                <h2>"Push yourself because no one else is going to do it for you."</h2>
+                <p style="color: green;">Stay Fit Stay Strong.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
