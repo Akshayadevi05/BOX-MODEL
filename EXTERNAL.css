@@ -1,0 +1,32 @@
+.box{
+    border-color: violet;
+    border-width: 4px;
+    border-style: solid;
+    display: inline-block;
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35%;
+
+}
+.box:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.details{
+    background-color: black;
+    width: 1350px;
+    height: auto;
+    padding: 5px;
+}
+
+.two{
+    color: blue;
+    border: pink solid 2px;
+    border-width: auto;
+    text-align: center;
+    padding: 5px;
+    
+}
