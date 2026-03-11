@@ -1,0 +1,94 @@
+section.demo {
+    display: inline-block;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 200px;
+}
+
+h1 {
+    /* ADD FONT STYLE */
+    font-style: italic;  
+    /* ADD FONT SIZE   */
+    font-size: large;
+}
+
+.swatch {
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border-radius: 1px;
+    border: solid;
+    border-color: black;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+    /* ADD BACKGROUND COLOR */
+.appele {
+    background-color: blueviolet;
+}
+
+.mango {
+    background-color: aqua;
+}
+
+.guava {
+    background-color: chocolate;
+}
+
+.grapes {
+    background-color: palevioletred;
+}
+
+.blue {
+    background-color: greenyellow;
+}
+
+.one {
+    display: inline-block;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 200px;
+
+
+}
+
+ul {
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+ul,
+li {
+    /* ADD FONT FAMILY */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid brown;
+    color: blue;
+    /* ADD BOX SHADOW */
+    box-shadow: 5px 5px 3px 3px brown;
+
+
+}
+
+    /* ADD IMAGE */
+img{
+    width: 200px;
+    height: 150px;
+    padding-left: 50px;
+    
+}
